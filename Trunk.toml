@@ -1,0 +1,5 @@
+# [[hooks]]
+# stage = "post_build"
+# command = "pwsh"
+# command_arguments = ["-c", "cp ./target/main.css $TRUNK_STAGING_DIR/"]
+# command_arguments = ["-c", "cp ./public/* $TRUNK_STAGING_DIR/"]
