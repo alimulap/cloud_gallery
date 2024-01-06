@@ -19,6 +19,19 @@ pub fn AppRouter() -> impl IntoView {
         <Router>
             <style> { style_str } </style>
             <style> "
+                a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    padding: 10px;
+                    border-radius: 5px;
+                    transition: all 0.2s ease-in-out;
+                }
+
+                a:hover {
+                    background-color: #ffffff;
+                    color: #203620;
+                }
+
                 nav {
                     height: 50px;
                     background-color: #203620;
